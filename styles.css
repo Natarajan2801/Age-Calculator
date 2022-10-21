@@ -6,7 +6,7 @@
 body{
 	width: 100%;
 	height: 100vh;
-	background: #ff0378;
+	background: #DFD3C3;		
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -16,12 +16,13 @@ body{
 .container{
 	width: 400px;
 	height: 500px;
-	background: rgba(155, 255,255, 0.2);
+	background: #F8EDE3; 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items:center ;
 	position: relative;
+	border: solid 2px #7D6E83;
 }
 input{
 	position: absolute;
@@ -29,6 +30,10 @@ input{
 	top: 5%;
 	height: 60px;
 	background: whitesmoke;
+	color:#7D6E83;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border: solid 2px #7D6E83;
+	
 }
 button{
 		position: absolute;
@@ -37,9 +42,27 @@ button{
 	height: 60px;
 	width: 150px;
 	background: whitesmoke;
+	color:#7D6E83;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border: solid 2px #7D6E83;
+	
+}
+button:hover{
+	background-color:  #DFD3C3;
 }
 p{
 	font-size: 25px;
-	color: white;
+	color:#7D6E83;
 	padding-top: 5%;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading{
+	/* text-align:	top; */
+	position: absolute;
+	top: 1%;
+	font-family:monospace;
+	font-size:1.5rem;
+	letter-spacing: 1.5px;
+	color:#7D6E83;
 }
